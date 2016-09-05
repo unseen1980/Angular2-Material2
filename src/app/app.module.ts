@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 // Material 2 
-import { MdCoreModule } from '@angular2-material/core'
+import { MdCoreModule, MdUniqueSelectionDispatcher } from '@angular2-material/core'
 import { MdButtonModule } from '@angular2-material/button';
 import { MdCardModule } from '@angular2-material/card';
 import { MdRadioModule } from '@angular2-material/radio';
@@ -27,7 +27,7 @@ import { AppComponent } from './app.component';
     MdCoreModule, MdCardModule, MdButtonModule, MdRadioModule,
     MdCheckboxModule, MdTooltipModule, MdSliderModule
   ],
-  providers: [],
+  providers: [MdUniqueSelectionDispatcher],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
