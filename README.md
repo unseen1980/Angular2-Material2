@@ -4,7 +4,7 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.11-webpack.8.
 
-1.Run `ng serve` for a dev server. 
-2.Navigate to `http://localhost:4200/`.
+1. Run `ng serve` for a dev server
+2. Navigate to `http://localhost:4200/`
 
 Ps.Very unstable version. Just for experimenting
